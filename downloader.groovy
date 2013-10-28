@@ -8,7 +8,7 @@ if(!file.exists()) {
     System.exit(-1)
 }
 
-def addonsFolder = "/tmp/WoW"
+def addonsFolder = "/Applications/World of Warcraft/Interface/AddOns"
 
 file.eachLine { id ->
 
